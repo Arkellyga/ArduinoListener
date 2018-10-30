@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/rounded_rectangle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:text="@string/tile_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/data_edittext_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tile_text_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/rounded_rectangle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_previous"
+                android:id="@+id/fast_back_button_text_size_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_rew"
+                android:id="@+id/back_button_text_size_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/text_size_edittext_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_ff"
+                android:id="@+id/forward_button_text_size_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:id="@+id/fast_forward_button_text_size_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tile_text_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/rounded_rectangle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_previous"
+                android:id="@+id/fast_back_button_text_x_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_rew"
+                android:id="@+id/back_button_text_x_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/text_x_edittext_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_ff"
+                android:id="@+id/forward_button_text_x_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:id="@+id/fast_forward_button_text_x_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="@string/tile_text_y"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/rounded_rectangle"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_previous"
+                android:id="@+id/fast_back_button_text_y_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_rew"
+                android:id="@+id/back_button_text_y_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_weight="1"
+                android:id="@+id/text_y_edittext_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_ff"
+                android:id="@+id/forward_button_text_y_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageButton
+                android:layout_weight="1"
+                android:src="@android:drawable/ic_media_next"
+                android:id="@+id/fast_forward_button_text_y_text_page"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

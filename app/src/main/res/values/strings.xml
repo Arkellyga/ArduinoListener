@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Car Manager</string>
+    <string name="action">Выполнить</string>
+    <string name="info">Инфо</string>
+    <string name="save">Сохранить</string>
+    <!-- Main Activity -->
+    <string name="start_travel" formatted="false">Начало поездки: %1$s</string>
+    <string name="end_travel" formatted="false">Окончание поездки: %1$s</string>
+    <string name="relay1_state">Реле 1: </string>
+    <string name="relay2_state">Реле 2: </string>
+    <string name="manual_control">Ручное управление: </string>
+    <string name="temperature" formatted="false">T = %1$s°C</string>
+    <string name="tiles_activity">Плитки</string>
+    <!-- Main Activity end -->
+    <!-- Tiles Activity -->
+    <string name="add_tile">Добавить плитку</string>
+    <!-- Tiles Activity end -->
+    <!-- Tile Editor -->
+    <string name="tile_name">Название плитки:</string>
+    <string name="tile_x" formatted="false">Положение по Х: %1$d</string>
+    <string name="tile_y" formatted="false">Положение по У: %1$d</string>
+    <string name="tile_text_x" formatted="false">Положение текста по Х: %1$d</string>
+    <string name="tile_text_y" formatted="false">Положение текста по У: %1$d</string>
+    <string name="tile_width" formatted="false">Ширина: %1$d</string>
+    <string name="tile_height" formatted="false">Высота: %1$d</string>
+    <string name="tile_text_size" formatted="false">Размер текста: %1$d</string>
+    <string name="tile_text_color" formatted="false">Цвет текста</string>
+    <string name="tile_color">Цвет фона</string>
+    <string name="tile_border_color">Цвет рамки</string>
+    <string name="tile_data">Формат данных</string>
+    <string name="tile_switch_mode">Режим переключателя</string>
+    <string name="tile_first_click">Действие на нажатие</string>
+    <string name="tile_second_click">Действие на второе нажатие</string>
+    <string name="tile_border_size">Размер рамки</string>
+    <string name="delete">Удалить</string>
+    <!-- Tile Editor end -->
+    <!-- Editor Subtitles -->
+    <string name="editor_action">События</string>
+    <string name="editor_colors">Цвета</string>
+    <string name="editor_text">Текст</string>
+    <string name="editor_common">Общие</string>
+    <!-- Editor Subtitles end-->
+    <!-- Preferences -->
+    <string name="settings">Настройки</string>
+    <string name="upgrade_app">Обновление</string>
+    <string name="upgrade_app_summary">Настройки обновления приложения</string>
+
+    <string name="server">Сервер</string>
+    <string name="server_summary">Адрес на котором хранится приложение</string>
+    <string name="update_app">Проверить обновления</string>
+    <string name="update_app_summary">Последнее обновление было %1$s</string>
+    <string name="version">Версия приложения: %1$d</string>
+
+    <string name="tiles_settings">Настройки плиток</string>
+    <string name="tiles_settings_summary">Размеры плиток</string>
+
+    <string name="layout_color">Фон основного экрана</string>
+    <string name="layout_grid">Отображать сетку</string>
+    <string name="tiles_screen_x">Количество ячеек в ширину</string>
+    <string name="tiles_screen_y">Количество ячеек в высоту</string>
+
+    <string name="import_and_export">Импорт и экспорт</string>
+    <string name="export_settings">Экспортировать текущие настройки</string>
+    <string name="import_settings">Импортировать текущие настройки</string>
+    <!-- Preferences end -->
+    <string name="about">О приложении</string>
+    <string name="notify_done">Операция выполнена</string>
+</resources>

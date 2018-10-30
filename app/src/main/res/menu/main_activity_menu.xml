@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_tile_menu_item"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/add_tile"
+        app:showAsAction="always" />
+    <item
+        android:title="show edit"
+        android:id="@+id/show_editor_item"/>
+    <item
+        android:title="@string/settings"
+        android:id="@+id/settings_menu_item" />
+    <item
+        android:title="@string/tiles_activity"
+        android:id="@+id/tiles_activity_menu_item"/>
+    <item
+        android:title="@string/about"
+        android:id="@+id/about_menu_item"/>
+</menu>

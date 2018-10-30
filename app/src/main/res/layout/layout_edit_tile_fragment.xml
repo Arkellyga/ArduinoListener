@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/tile_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/name_edittext_edit_tile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/x_textview_edit_tile"
+                android:gravity="center_horizontal"
+                android:text="@string/tile_x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/x_seekbar_edit_tile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/y_textview_edit_tile"
+                android:gravity="center_horizontal"
+                android:text="@string/tile_y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/y_seekbar_edit_tile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/width_textview_edit_tile"
+                android:gravity="center_horizontal"
+                android:text="@string/tile_width"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/width_seekbar_edit_tile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/height_textview_edit_tile"
+                android:gravity="center_horizontal"
+                android:text="@string/tile_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/height_seekbar_edit_tile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/tile_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <net.arkellyga.arduinolistener.ui.ColorSquare
+                    android:id="@+id/color_square_edit_tile"
+                    android:layout_weight="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/tile_border_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <net.arkellyga.arduinolistener.ui.ColorSquare
+                    android:id="@+id/border_color_square_edit_tile"
+                    android:layout_weight="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/tile_data"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/data_edittext_edit_tile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/switch_checkbox_edit_tile"
+                android:text="@string/tile_switch_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/tile_first_click"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/first_click_edittext_edit_tile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_second_click_edit_tile"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/tile_second_click"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <EditText
+                    android:layout_weight="1"
+                    android:id="@+id/second_click_edittext_tile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textsize_textview_edit_tile"
+                android:gravity="center_horizontal"
+                android:text="@string/tile_text_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/textsize_seekbar_edit_tile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_weight="1"
+                    android:text="@string/tile_text_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <net.arkellyga.arduinolistener.ui.ColorSquare
+                    android:id="@+id/text_color_square_edit_tile"
+                    android:layout_weight="10"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/x_text_textview_edit_tile"
+                android:gravity="center_horizontal"
+                android:text="@string/tile_text_x"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/x_text_seekbar_edit_tile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/y_text_textview_edit_tile"
+                android:gravity="center_horizontal"
+                android:text="@string/tile_text_y"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <android.support.v7.widget.AppCompatSeekBar
+                android:id="@+id/y_text_seekbar_edit_tile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:text="@android:string/cancel"
+                    android:layout_weight="1"
+                    android:id="@+id/cancel_button_edit_tile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:text="@string/delete"
+                    android:layout_weight="1"
+                    android:id="@+id/delete_button_edit_tile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:text="@android:string/ok"
+                    android:layout_weight="1"
+                    android:id="@+id/ok_button_edit_tile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <net.arkellyga.arduinolistener.ui.TileView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/example_tileview_edit_tile"
+                android:layout_width="46dp"
+                android:layout_height="46dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

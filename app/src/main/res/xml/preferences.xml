@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:key="tiles_screen"
+        android:title="@string/tiles_settings"
+        android:summary="@string/tiles_settings_summary">
+        <yuku.ambilwarna.widget.AmbilWarnaPreference
+            android:key="background_color"
+            android:title="@string/layout_color"
+            android:defaultValue="0xffffffff"/>
+        <CheckBoxPreference
+            android:key="layout_grid"
+            android:title="@string/layout_grid"
+            android:defaultValue="true"/>
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="tiles_screen_column"
+            android:title="@string/tiles_screen_x"/>
+        <EditTextPreference
+            android:defaultValue="10"
+            android:key="tiles_screen_row"
+            android:title="@string/tiles_screen_y"/>
+    </PreferenceScreen>
+    <PreferenceScreen
+        android:key="update_screen"
+        android:title="@string/upgrade_app"
+        android:summary="@string/upgrade_app_summary">
+
+        <EditTextPreference
+            android:key="server_host"
+            android:title="@string/server"
+            android:summary="@string/server_summary" />
+        <Preference
+            android:key="update_app"
+            android:title="@string/update_app"/>
+        <Preference
+            android:key="app_version"
+            android:title="@string/version"/>
+    </PreferenceScreen>
+    <PreferenceCategory
+        android:title="@string/import_and_export">
+        <Preference
+            android:key="import_settings"
+            android:title="@string/import_settings"/>
+        <Preference
+            android:key="export_settings"
+            android:title="@string/export_settings"/>
+    </PreferenceCategory>
+</PreferenceScreen>

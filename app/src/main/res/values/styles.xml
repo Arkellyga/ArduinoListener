@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#000</item>
+        <item name="actionBarStyle">@style/AppTheme.ActionBar</item>
+
+    </style>
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="height">56dp</item>
+        <item name="android:background" tools:ignote="NewApi">@color/colorActionBarBackground</item>
+        <item name="background">@color/colorActionBarBackground</item>
+        <item name="android:icon">@mipmap/ic_launcher</item>
+        <item name="icon">@mipmap/ic_launcher</item>
+    </style>
+</resources>
